@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 1280px;
+  max-height: 720px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 5cm 0 -7cm 0cm;
+  font-size: 3.5em;
+  color: #ff8551;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 30%;
+  margin-top: -0.5cm;
+  margin-right: 0.1cm;
+  margin-left: 28cm;
+}
+
+label {
+  font-weight: bold;
+}
+p {
+  text-align: center;
+}
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+li {
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  text-align: left;
+  margin-left: 4cm;
+}
+
+.header {
+  border: solid white 2px;
+  background-color: #ffdede;
+}
+.about-us,
+.our-services {
+  text-align: center;
+}
+
+.list {
+  display: block;
+  margin-top: 2cm;
+  margin-left: 5cm;
+}
+
+#contact-us {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 200px;
+  padding: 20px;
+}
+
+.form,
+.location,
+.opening-hours {
+  text-align: center;
+  padding: 50px;
+  border: solid black 2px;
+}
+
+#intro-p {
+  display: block;
+  margin: 0 auto;
+  margin: 0 5cm 0 5cm;
+  text-align: justify;
+}
