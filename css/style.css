@@ -5,6 +5,7 @@ body {
 
 header {
   border: solid #ffdede 3px;
+  border-radius: 28%;
   background-color: #ffdede;
   margin-bottom: 1cm;
 }
@@ -12,16 +13,16 @@ header {
 h1 {
   text-align: center;
   margin: 5cm 0 -7cm 0cm;
-  font-size: 3.5em;
+  font-size: 5em;
   color: #ff8551;
 }
 
 img {
   display: block;
-  width: 30%;
+  width: 23%;
   margin-top: -0.5cm;
   margin-right: 0.1cm;
-  margin-left: 28cm;
+  margin-left: 30cm;
   margin-bottom: -2.3cm;
 }
 
@@ -41,10 +42,6 @@ label {
   font-weight: bold;
 }
 
-p {
-  text-align: justify;
-}
-
 ul {
   columns: 2;
   -webkit-columns: 2;
@@ -52,6 +49,7 @@ ul {
 }
 
 li {
+  font-size: 1.5em;
   padding: 0.2em 0.5em 0.2em 0.5em;
   text-align: left;
   margin-left: 4cm;
@@ -61,15 +59,39 @@ address {
   font-style: normal;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 .list {
   display: block;
   margin-top: 2cm;
   margin-left: 5cm;
 }
 
+#about-us,
+#our-services {
+  font-size: 3em;
+  background-color: #ffdede;
+  border-radius: 30px;
+  padding: 20px;
+  width: 500px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
 #intro-p {
-  margin: 1cm 5cm 0 5cm;
-  text-align: center;
+  font-size: 1.5em;
+  margin: -1cm 10cm;
+  padding: 0;
+  text-align: justify;
+  text-align-last: center;
+}
+
+#our-services {
+  margin-top: -2cm;
 }
 
 #contact-us {
@@ -82,16 +104,26 @@ address {
 #form,
 #address-section,
 #opening-hours {
+  font-size: 1.3em;
   text-align: center;
   padding: 50px;
-  border: solid black 2px;
+  border: solid #ff8b5b 2px;
+  background-color: #ffdede;
 }
 
+#location {
+  margin-bottom: 1em;
+}
+
+#phone {
+  margin-top: 1em;
+}
 a:visited {
   text-decoration: none;
-  color: black;
+  color: #ff8b5b;
 }
 
 a:hover {
+  text-decoration: none;
   color: #ff8b5b;
 }
