@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  border: solid white 2px;
+  border: solid #ffdede 3px;
   background-color: #ffdede;
   margin: 0 0 1cm 0;
 }
@@ -15,11 +15,6 @@ h1 {
   color: #ff8551;
 }
 
-h2 {
-  text-align: center;
-  margin-bottom: 1cm;
-}
-
 img {
   display: block;
   width: 30%;
@@ -27,6 +22,16 @@ img {
   margin-right: 0.1cm;
   margin-left: 28cm;
   margin-bottom: -2.3cm;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1cm;
+}
+
+section {
+  text-align: center;
+  margin-bottom: 3cm;
 }
 
 label {
@@ -46,12 +51,6 @@ li {
   padding: 0.2em 0.5em 0.2em 0.5em;
   text-align: left;
   margin-left: 4cm;
-}
-
-.about-us,
-.our-services {
-  text-align: center;
-  margin-bottom: 3cm;
 }
 
 .list {
