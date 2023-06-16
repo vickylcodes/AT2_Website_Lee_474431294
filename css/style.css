@@ -55,6 +55,10 @@ li {
   margin-left: 4cm;
 }
 
+input {
+  width: 8cm;
+}
+
 address {
   font-style: normal;
 }
