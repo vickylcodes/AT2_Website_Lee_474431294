@@ -35,10 +35,12 @@ section {
 }
 
 label {
+  display: block;
   font-weight: bold;
 }
+
 p {
-  text-align: center;
+  text-align: justify;
 }
 
 ul {
@@ -53,28 +55,41 @@ li {
   margin-left: 4cm;
 }
 
+address {
+  font-style: normal;
+}
+
 .list {
   display: block;
   margin-top: 2cm;
   margin-left: 5cm;
 }
 
+#intro-p {
+  margin: 1cm 5cm 0 5cm;
+  text-align: center;
+}
+
 #contact-us {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 200px;
+  grid-gap: 80px;
   padding: 20px;
 }
 
-.form,
-.location-and-phone,
-.opening-hours {
+#form,
+#address-section,
+#opening-hours {
   text-align: center;
   padding: 50px;
   border: solid black 2px;
 }
 
-#intro-p {
-  margin: 0 5cm 0 5cm;
-  text-align: justify;
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #ff8b5b;
 }
