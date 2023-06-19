@@ -40,7 +40,7 @@ nav {
 
 nav ul {
   list-style-type: none;
-  margin: 0;
+  margin: -11px;
   padding: 0;
   overflow: hidden;
   background-color: #ff8b5b;
@@ -49,6 +49,14 @@ nav ul {
 
 nav li {
   float: left;
+}
+
+nav li a {
+  display: block;
+  color: #ffdede;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
 }
 
 section {
