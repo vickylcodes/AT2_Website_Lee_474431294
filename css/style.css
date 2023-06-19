@@ -68,6 +68,10 @@ a {
   text-decoration: none;
 }
 
+.menu-list {
+  list-style-type: none;
+}
+
 .list {
   display: block;
   margin-top: 2cm;
