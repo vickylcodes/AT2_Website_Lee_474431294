@@ -38,6 +38,19 @@ nav {
   opacity: 75%;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff8b5b;
+  top: 0;
+}
+
+nav li {
+  float: left;
+}
+
 section {
   color: #4f709c;
   text-align: center;
@@ -86,10 +99,6 @@ a {
 footer {
   height: 35px;
   width: 100%;
-}
-
-.menu-list {
-  list-style-type: none;
 }
 
 .list {
