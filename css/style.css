@@ -1,6 +1,11 @@
+html {
+  scroll-padding-top: 55px;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #faf0e4;
+  scroll-padding-top: 55px;
 }
 
 header {
@@ -8,22 +13,26 @@ header {
   border-radius: 28%;
   background-color: #ffdede;
   margin-bottom: 1cm;
+  position: relative;
 }
 
 h1 {
+  display: block;
   text-align: center;
-  margin: 5cm 0 -7cm 0cm;
+  margin: 7cm 0 -7cm 0cm;
   font-size: 5em;
   color: #ff8551;
 }
 
 img {
   display: block;
-  width: 23%;
   margin-top: -0.5cm;
   margin-right: 0.1cm;
   margin-left: 30cm;
   margin-bottom: -2.3cm;
+  width: 18%;
+  max-width: 100%;
+  height: auto;
 }
 
 h2 {
@@ -36,6 +45,7 @@ nav {
   position: fixed;
   z-index: 5;
   opacity: 75%;
+  display: block;
 }
 
 nav ul {
@@ -55,8 +65,7 @@ nav li a {
   display: block;
   color: #ffdede;
   font-weight: bold;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 2px 109px;
 }
 
 section {
@@ -65,17 +74,60 @@ section {
   margin-bottom: 3cm;
 }
 
-#about-us,
-#contact-us,
-#our-services {
-  min-height: 100%;
-  width: 80%;
-  margin: 0 auto;
+@media only screen and (max-width: 480px) {
+  /* Styles for screens 480px or less */
+
+  /* Adjust the header's margin to move it below the menu bar */
+  header {
+    margin-top: 60px; /* Adjust this value as needed */
+  }
+
+  /* Adjust the image's margin to center it horizontally */
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem; /* Adjust this value as needed */
+    margin-bottom: 1rem; /* Adjust this value as needed */
+  }
+
+  /* Make the sections occupy full width */
+  section {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* Adjust the padding for the form and other sections */
+  #form,
+  #address-section,
+  #opening-hours {
+    padding: 20px;
+  }
+
+  /* Adjust the list items' margin for better alignment */
+  li {
+    margin-left: 0;
+    text-align: center;
+  }
 }
 
 label {
   display: block;
+  margin: 0 auto;
   font-weight: bold;
+}
+
+#about-label,
+#services-label,
+#contact-label {
+  font-size: 3em;
+  color: #4f709c;
+  background-color: #ffdede;
+  border-radius: 30px;
+  padding: 20px;
+  height: 50px;
+  text-align: center;
+  min-height: 100%;
+  width: 30%;
 }
 
 ul {
@@ -86,7 +138,7 @@ ul {
 
 li {
   font-size: 1.5em;
-  padding: 0.2em 0.5em 0.2em 0.5em;
+  padding: 0.2em 0.5em;
   text-align: left;
   margin-left: 4cm;
 }
@@ -105,8 +157,16 @@ a {
 }
 
 footer {
+  background-color: #4f709c;
   height: 35px;
   width: 100%;
+  text-align: center;
+  padding: 0.2em;
+}
+
+footer p {
+  color: #ffdede;
+  font-size: 0.8em;
 }
 
 .list {
@@ -115,28 +175,12 @@ footer {
   margin-left: 5cm;
 }
 
-#about-us,
-#our-services {
-  font-size: 3em;
-  background-color: #ffdede;
-  border-radius: 30px;
-  padding: 20px;
-  width: 500px;
-  height: 50px;
-  display: block;
-  margin: 0 auto;
-}
-
 #intro-p {
   font-size: 1.5em;
   margin: -1cm 10cm;
   padding: 0;
   text-align: justify;
   text-align-last: center;
-}
-
-#our-services {
-  margin-top: -2cm;
 }
 
 #contact-us {
