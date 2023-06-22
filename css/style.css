@@ -5,44 +5,42 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #faf0e4;
-  scroll-padding-top: 55px;
 }
 
 header {
-  border: solid #ffdede 3px;
-  border-radius: 28%;
-  background-color: #ffdede;
   margin-bottom: 1cm;
-  position: relative;
 }
 
 h1 {
   display: block;
   text-align: center;
-  margin: 7cm 0 -7cm 0cm;
   font-size: 5em;
   color: #ff8551;
+  background-color: #ffdede;
+  border: solid #ffdede 3px;
+  border-radius: 20%;
+  margin-bottom: 5cm;
+  padding: 3cm;
+  height: 100%;
 }
 
 img {
   display: block;
   max-width: 100%;
-  height: auto;
-  margin-top: -0.5cm;
-  margin-right: 0.1cm;
-  margin-left: 30cm;
-  margin-bottom: -2.3cm;
+  height: 100%;
+  margin-top: -12.2cm;
+  margin-left: 27cm;
+  margin-bottom: -1.3cm;
   width: 18%;
 }
 
 h2 {
   text-align: center;
-  margin-bottom: 1cm;
+  margin: 0;
 }
 
 nav {
   width: 100%;
-  position: fixed;
   z-index: 5;
   opacity: 75%;
   display: block;
@@ -196,12 +194,13 @@ footer p {
 #address-section,
 #opening-hours {
   display: grid;
+  align-content: center;
+  justify-content: center;
   align-items: center;
-  justify-items: center;
   font-size: 1.3em;
   border: solid #ff8b5b 2px;
   background-color: #ffdede;
-  padding: 50px;
+  padding: 20px;
 }
 
 #location {
@@ -211,6 +210,11 @@ footer p {
 #phone {
   margin-top: 1em;
 }
+
+#opening-label {
+  margin: 1cm;
+}
+
 a:visited {
   text-decoration: none;
 }
