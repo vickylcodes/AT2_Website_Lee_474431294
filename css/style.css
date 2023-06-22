@@ -206,7 +206,7 @@ footer p {
   -ms-grid-columns: 1fr 80px 1fr 80px 1fr;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 80px;
-  padding: 20px;
+  padding: 15px;
   margin: 10px;
 }
 
