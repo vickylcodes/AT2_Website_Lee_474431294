@@ -164,6 +164,9 @@ footer p {
   margin-left: 5cm;
 }
 
+.days {
+  font-weight: bold;
+}
 span.intro {
   font-weight: 100;
   margin: 0.5cm;
