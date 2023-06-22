@@ -164,9 +164,6 @@ footer p {
   margin-left: 5cm;
 }
 
-.days {
-  font-weight: bold;
-}
 span.intro {
   font-weight: 100;
   margin: 0.5cm;
@@ -206,6 +203,7 @@ span.intro {
   align-items: center;
   font-size: 1.3em;
   border: solid #ff8b5b 2px;
+  border-radius: 10%;
   background-color: #ffdede;
   padding: 20px;
 }
