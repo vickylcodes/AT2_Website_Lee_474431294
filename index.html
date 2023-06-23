@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="ABC Optical Brochure" />
     <title>ABC Optical Brochure</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
   </head>
 
@@ -14,6 +20,7 @@
       <nav>
         <ul>
           <li class="menu-item"><a href="#about-us">About</a></li>
+          <li class="menu-item"><a href="#eyewear">Eyewear</a></li>
           <li class="menu-item"><a href="#our-services">Services</a></li>
           <li class="menu-item"><a href="#contact-us">Contact</a></li>
         </ul>
@@ -47,6 +54,19 @@
       </p>
     </section>
 
+    <section id="eyewear">
+      <h3>Our Eyeware</h3>
+      <section id="ophthalmic-glasses">
+        <h4 id="eyewear-title">Ophthalmic Glasses</h4>
+      </section>
+      <section id="sunglasses">
+        <h4 id="eyewear-title">Sunglasses</h4>
+      </section>
+      <section id="contact-lenses">
+        <h4 id="eyewear-title">Contact Lenses</h4>
+      </section>
+    </section>
+
     <section id="our-services">
       <h3>Our Services</h3>
       <ul>
@@ -76,7 +96,7 @@
     <h3 id="contact-us">Contact Us</h3>
     <section id="contact-section">
       <section id="form">
-        <span>CONTACT FORM</span>
+        <span class="contact-title">CONTACT FORM</span>
         <form method="get" class="contact-form">
           <label for="name">Enter your full name:</label>
           <input type="text" name="name" id="name" required />
@@ -96,19 +116,22 @@
         </form>
       </section>
 
-      <section id="address-section">
-        <span>Location</span>
-        <address>
+      <section id="location-section">
+        <span class="contact-title" id="location-title">LOCATION</span>
+        <p>
+          <b> Address </b><br />
           <a href="https://www.themyercentre.com.au/directions/centre-map#/"
             >The Myer Centre Queen Street Mall Level 1, Shop 36</a
           >
-        </address>
-        <span>Phone</span>
-        <a href="tel:+0732567101">07 3256 7101</a>
+        </p>
+        <p>
+          <b> Phone </b><br />
+          <a href="tel:+0732567101">07 3256 7101</a>
+        </p>
       </section>
 
       <section id="opening-hours">
-        <span>OPENING HOURS</span>
+        <span class="contact-title">OPENING HOURS</span>
         <p><b>Monday to Thursdays</b> <br />9am - 5.30pm</p>
         <p><b>Fridays</b><br />9am - 9pm</p>
         <p><b>Saturdays</b> <br />9am -5pm</p>
@@ -119,7 +142,9 @@
       </section>
     </section>
     <footer>
-      <p>&copy; 2023 Victoria Lee</p>
+      <p>
+        Copyright &copy; 2023 Victoria Lee. All rights reserved. | 474421394
+      </p>
     </footer>
   </body>
 </html>
