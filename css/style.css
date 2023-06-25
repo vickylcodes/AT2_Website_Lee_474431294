@@ -9,31 +9,44 @@ html {
   scroll-padding-top: 55px;
   overflow-x: hidden;
   height: 100%;
+  max-width: 100%;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  display: block;
+  margin: 0px;
+  font-family: "Roboto", sans-serif, arial;
   background-color: #faf0e4;
-  min-height: 100%;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
 header {
-  margin-bottom: 1cm;
+  margin: 200px 0px;
 }
 
 h1 {
+  display: block;
   text-align: center;
   font-size: 5em;
   color: #ff8551;
   background-color: #ffdede;
   border: solid #ffdede 3px;
-  border-radius: 20%;
-  margin-top: 2cm;
-  margin-bottom: 5cm;
+  border-radius: 38%;
+  margin: 80px 50px;
   padding: 5cm 0cm;
   height: 100%;
   border-color: whitesmoke;
   box-shadow: 0 0 10px #ff8b5b;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: white;
 }
 
 img {
@@ -41,19 +54,15 @@ img {
   max-width: 100%;
   margin-top: -15cm;
   margin-left: 32cm;
-  margin-bottom: -1.3cm;
+  margin-bottom: -1.3px;
   width: 20%;
   height: 100%;
-}
-
-h2 {
-  text-align: center;
-  margin: 0;
 }
 
 h3 {
   display: block;
   margin: 0 auto;
+  margin-top: 50px;
   font-size: 3em;
   color: #4f709c;
   background-color: #ffdede;
@@ -64,7 +73,6 @@ h3 {
   height: 50%;
   width: 30%;
   scroll-margin-top: 55px;
-  margin-top: 55px;
 }
 
 h4 {
@@ -173,6 +181,8 @@ span.intro {
 .contact-title {
   color: white;
   background-color: #ff8b5b;
+  border-radius: 30px;
+  width: 280px;
 }
 
 #intro-p {
@@ -258,7 +268,7 @@ span.intro {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  justify-items: stretch;
+  justify-items: center;
   font-size: 1.3em;
   border: solid #ff8b5b 2px;
   border-radius: 10%;
@@ -266,7 +276,7 @@ span.intro {
   margin-left: 52px;
   padding: 20px;
   width: 70%;
-  height: 60%;
+  height: 55%;
   margin-top: 28%;
 }
 
@@ -275,11 +285,17 @@ span.intro {
 }
 
 #location-title {
-  margin-top: -130px;
+  margin-top: -112px;
 }
 
 #location {
   margin-bottom: 1em;
+}
+
+#address,
+#phone {
+  color: #4f709c;
+  text-decoration: underline;
 }
 
 a:visited {
@@ -288,77 +304,4 @@ a:visited {
 
 a:hover {
   text-decoration: none;
-  color: #ff8b5b;
-}
-
-@media only screen and (max-width: 480px) {
-  /* Styles for screens 480px or less */
-
-  /* Adjust the header's margin to move it below the menu bar */
-  header {
-    margin-top: 60px; /* Adjust this value as needed */
-  }
-
-  .menu-item a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.6em;
-    padding: 8px;
-  }
-
-  nav li {
-    display: inline-block;
-    margin-right: 16px;
-  }
-
-  h1 {
-    font-size: 4em;
-    border-radius: 38%;
-    margin-top: 28%;
-  }
-
-  h3 {
-    display: block;
-    margin: 0 auto;
-    font-size: 3em;
-    color: #4f709c;
-    background-color: #ffdede;
-    border-radius: 30px;
-    padding: 20px;
-    text-align: center;
-    height: 100%;
-    min-height: 80%;
-    width: 80%;
-    scroll-margin-top: 55px;
-    margin-top: 55px;
-  }
-
-  /* Adjust the image's margin to center it horizontally */
-  img {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem; /* Adjust this value as needed */
-    margin-bottom: 1rem; /* Adjust this value as needed */
-  }
-
-  /* Make the sections occupy full width */
-  section {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  /* Adjust the padding for the form and other sections */
-  #form,
-  #location-section,
-  #opening-hours {
-    padding: 20px;
-  }
-
-  /* Adjust the list items' margin for better alignment */
-  li {
-    margin-left: 0;
-    text-align: center;
-  }
 }
