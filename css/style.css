@@ -71,8 +71,7 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 0;
-  margin-left: -10%;
+  margin: 0 auto;
 }
 
 nav {
@@ -90,11 +89,7 @@ nav {
 }
 
 nav li {
-  float: left;
-  display: block;
-  text-align: center;
   list-style-type: none;
-  padding: 0px;
   padding: 10px;
 }
 
@@ -129,8 +124,8 @@ ul {
 
 li {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   align-content: space-evenly;
   font-size: 1.5em;
   padding: 20px 0;
@@ -275,22 +270,9 @@ footer p {
   border: solid #ff8b5b 2px;
   border-radius: 10%;
   background-color: #ffdede;
-  padding: 20px;
   width: 70%;
   height: 120%;
   margin-left: 50px;
-}
-
-#location-section {
-  align-content: center;
-}
-
-#location-title {
-  margin-top: -112px;
-}
-
-#location {
-  margin-bottom: 1em;
 }
 
 #address,
@@ -307,7 +289,7 @@ a:hover {
   text-decoration: none;
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 1280px) {
   nav {
     display: flex;
     flex-direction: column;
@@ -321,8 +303,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 0;
-    margin-left: -10%;
+    margin: 0 auto;
   }
 
   nav li {
@@ -351,7 +332,7 @@ a:hover {
     width: 300px;
     display: block;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
 
   h4 {
@@ -360,7 +341,6 @@ a:hover {
 
   li {
     font-size: 1.1em;
-    text-align: left;
     margin: 0;
     padding: 8px;
     padding-left: 0px;
@@ -381,7 +361,9 @@ a:hover {
   }
 
   .contact-title {
-    width: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
   }
 
   #about-us {
@@ -395,9 +377,16 @@ a:hover {
     margin: 0 auto;
     width: 350px;
   }
+
+  #our-services {
+    display: block;
+    margin-top: 930px;
+  }
+
   #contact-section {
     grid-template-columns: 1fr;
     grid-gap: 40px;
+    height: auto;
   }
 
   #form,
@@ -406,17 +395,21 @@ a:hover {
     display: block;
     margin: 0 auto;
     font-size: 1em;
-    padding: 10px;
-    width: 70%;
-    height: 80%;
-  }
-
-  location-section {
-    padding: 100px 0;
+    width: 80%;
+    height: auto;
   }
 
   input {
-    width: 5cm;
-    margin-bottom: 28px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: auto;
   }
+
+  #address {
+    margin: 5px;
+  }
+}
+
+@media screen (max-width: 475px) and (min-width: 1280px) {
 }
