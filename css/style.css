@@ -349,7 +349,11 @@ a:hover {
     font-size: 1em;
     text-align: justify;
   }
-  #eyewear {
+
+  #about-us,
+  #eyewear,
+  #our-services,
+  #contact-us {
     margin-top: 100%;
   }
 
@@ -366,12 +370,6 @@ a:hover {
     width: auto;
   }
 
-  #about-us {
-    margin: 0 auto;
-    margin-top: 200px;
-    margin-bottom: 50px;
-  }
-
   #kid-pic {
     display: block;
     margin: 0 auto;
@@ -380,11 +378,6 @@ a:hover {
 
   #our-services {
     display: block;
-    margin-top: 930px;
-  }
-
-  #contact-us {
-    margin-top: 100%;
   }
 
   #contact-section {
