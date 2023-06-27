@@ -268,11 +268,11 @@ footer p {
   justify-items: center;
   font-size: 1.3em;
   border: solid #ff8b5b 2px;
-  border-radius: 10%;
+  border-radius: 30px;
   background-color: #ffdede;
   width: 70%;
   height: 120%;
-  margin-left: 50px;
+  margin: 0 auto;
 }
 
 #address,
@@ -409,7 +409,4 @@ a:hover {
   #address {
     margin: 5px;
   }
-}
-
-@media screen (max-width: 475px) and (min-width: 1280px) {
 }
