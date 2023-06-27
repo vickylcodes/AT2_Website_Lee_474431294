@@ -188,6 +188,13 @@ footer p {
   display: none;
 }
 
+#eyewear {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
+  height: auto;
+}
+
 .eyewear-title {
   display: block;
   margin: 0 auto;
@@ -197,13 +204,6 @@ footer p {
   width: 25%;
   margin-top: 11%;
   padding: 25px;
-}
-
-#eyewear {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 40px;
-  height: auto;
 }
 
 #ophthalmic-glasses {
@@ -230,7 +230,6 @@ footer p {
 
 #our-services {
   display: block;
-  margin-top: 850px;
 }
 
 #contact-section {
@@ -350,6 +349,9 @@ a:hover {
     font-size: 1em;
     text-align: justify;
   }
+  #eyewear {
+    margin-top: 100%;
+  }
 
   .eyewear-title {
     display: block;
@@ -379,6 +381,10 @@ a:hover {
   #our-services {
     display: block;
     margin-top: 930px;
+  }
+
+  #contact-us {
+    margin-top: 100%;
   }
 
   #contact-section {
