@@ -362,8 +362,8 @@ a:hover {
 
   .contact-title {
     display: block;
-    margin: 0 auto;
-    margin-top: 30px;
+    margin: 20px 30px;
+    width: auto;
   }
 
   #about-us {
