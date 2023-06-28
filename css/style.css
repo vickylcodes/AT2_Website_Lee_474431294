@@ -133,7 +133,7 @@ li {
 }
 
 input {
-  width: 8cm;
+  width: 100%;
   margin-bottom: 28px;
 }
 
@@ -401,7 +401,6 @@ a:hover {
     display: block;
     margin: 0 auto;
     margin-bottom: 10px;
-    width: auto;
   }
 
   #address {
