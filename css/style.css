@@ -148,7 +148,7 @@ a {
 
 footer {
   background-color: #4f709c;
-  height: 35px;
+  height: auto;
   width: 100%;
   text-align: center;
   padding: 0.2em;
@@ -243,6 +243,7 @@ footer p {
   grid-template-columns: repeat(3, 1fr);
   padding: 15px;
   margin: 20px 0px;
+  margin-bottom: 0;
   height: 720px;
   align-content: center;
   justify-content: center;
