@@ -180,6 +180,10 @@ footer p {
   text-align-last: center;
 }
 
+#abc-optical-nav {
+  display: inline-block;
+}
+
 #about-us {
   margin: 200px 0px -100px 0px;
 }
