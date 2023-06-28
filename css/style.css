@@ -133,8 +133,15 @@ li {
 }
 
 input {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   margin-bottom: 28px;
+  box-sizing: border-box;
+}
+
+textarea::placeholder {
+  font-family: "Roboto", sans-serif, arial;
+  padding: 2%;
 }
 
 address {
@@ -271,6 +278,12 @@ footer p {
   width: 70%;
   height: 120%;
   margin: 0 auto;
+}
+
+#submit {
+  display: block;
+  margin: 0 auto;
+  width: auto;
 }
 
 #address,
