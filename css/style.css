@@ -158,12 +158,6 @@ footer p {
   font-size: 0.8em;
 }
 
-.list {
-  display: block;
-  margin-top: 2cm;
-  margin-left: 5cm;
-}
-
 .contact-title {
   color: white;
   background-color: #ff8b5b;
@@ -224,10 +218,6 @@ footer p {
   background-size: 100%;
   background-repeat: no-repeat;
   height: 500px;
-}
-
-#our-services {
-  display: block;
 }
 
 #contact-section {
@@ -324,7 +314,6 @@ a:hover {
   h2 {
     font-size: 1.5em;
     text-align: center;
-    display: block;
     margin: 0 auto;
     margin-top: -170px;
     width: 180px;
@@ -332,7 +321,6 @@ a:hover {
 
   h3 {
     width: 80%;
-    display: block;
     margin: 0 auto;
     margin-bottom: 10px;
   }
@@ -349,7 +337,6 @@ a:hover {
   }
 
   .intro-p {
-    display: block;
     margin: 20px;
     font-size: 1em;
     text-align: justify;
@@ -363,26 +350,19 @@ a:hover {
   }
 
   .eyewear-title {
-    display: block;
-    margin: 0 auto;
     width: 200px;
     margin-top: 200px;
   }
 
   .contact-title {
-    display: block;
     margin: 20px 30px;
-    width: auto;
+    width: 90%;
   }
 
   #kid-pic {
     display: block;
     margin: 0 auto;
     width: 350px;
-  }
-
-  #our-services {
-    display: block;
   }
 
   #contact-section {
@@ -394,8 +374,6 @@ a:hover {
   #form,
   #location-section,
   #opening-hours {
-    display: block;
-    margin: 0 auto;
     font-size: 1em;
     width: 80%;
     height: auto;
