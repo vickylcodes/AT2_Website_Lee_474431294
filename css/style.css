@@ -153,19 +153,29 @@ footer p {
   font-size: 0.8em;
 }
 
+.intro-p {
+  font-size: 1.8em;
+  text-align: center;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+
+.eyewear-title {
+  display: block;
+  margin: 0 auto;
+  color: white;
+  background-color: #4f709c;
+  border-radius: 30px;
+  width: 25%;
+  margin-top: 11%;
+  padding: 25px;
+}
+
 .contact-title {
   color: white;
   background-color: #ff8b5b;
   border-radius: 30px;
   width: 280px;
-}
-
-.intro-p {
-  font-size: 1.8em;
-
-  text-align: center;
-  -moz-text-align-last: center;
-  text-align-last: center;
 }
 
 #about-us {
@@ -181,17 +191,6 @@ footer p {
   grid-template-columns: 1fr;
   grid-gap: 40px;
   height: auto;
-}
-
-.eyewear-title {
-  display: block;
-  margin: 0 auto;
-  color: white;
-  background-color: #4f709c;
-  border-radius: 30px;
-  width: 25%;
-  margin-top: 11%;
-  padding: 25px;
 }
 
 #ophthalmic-glasses {
