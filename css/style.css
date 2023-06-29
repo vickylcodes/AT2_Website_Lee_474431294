@@ -19,6 +19,10 @@ body {
   background-color: #faf0e4;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 nav,
 nav ul {
   display: flex;
@@ -47,10 +51,6 @@ nav li a {
   color: #ffdede;
   font-weight: bold;
   padding: 0px;
-}
-
-::-webkit-scrollbar {
-  display: none;
 }
 
 h1 {
@@ -96,12 +96,6 @@ section {
   max-width: 100%;
 }
 
-label {
-  display: block;
-  margin: 0 auto;
-  font-weight: bold;
-}
-
 ul {
   columns: 2;
   -webkit-columns: 2;
@@ -117,6 +111,12 @@ li {
   font-size: 1.5em;
   padding: 20px 0;
   list-style: none;
+}
+
+label {
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
 }
 
 input {
@@ -225,8 +225,7 @@ footer p {
   -ms-grid-columns: 1fr 80px 1fr 80px 1fr;
   grid-template-columns: repeat(3, 1fr);
   padding: 15px;
-  margin: 20px 0px;
-  margin-bottom: 0;
+  margin-top: 20px;
   height: 720px;
   align-content: center;
   justify-content: center;
@@ -339,8 +338,7 @@ a:hover {
 
   #about-us,
   #eyewear,
-  #our-services,
-  #contact-us {
+  #our-services {
     margin-top: 100%;
   }
 
