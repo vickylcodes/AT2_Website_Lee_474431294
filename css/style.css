@@ -312,6 +312,16 @@ a:hover {
     padding: 8px;
   }
 
+  input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  #submit {
+    margin: 5% auto;
+  }
+
   .intro-p {
     margin: 20px;
     font-size: 1em;
@@ -331,7 +341,7 @@ a:hover {
   #kid-pic {
     display: block;
     margin: 0 auto;
-    width: 350px;
+    width: 80%;
   }
 
   #contact-section {
@@ -346,12 +356,6 @@ a:hover {
     font-size: 1em;
     width: 80%;
     height: auto;
-  }
-
-  input {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 10px;
   }
 
   #address {
