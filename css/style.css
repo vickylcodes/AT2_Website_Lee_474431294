@@ -293,8 +293,14 @@ a:hover {
 
   h3 {
     width: 80%;
-    margin: 0 auto;
-    margin-bottom: 10px;
+    margin: 3% auto;
+  }
+
+  h3 #about-us,
+  #eyewear,
+  #our-services,
+  #contact-us {
+    margin-top: 100%;
   }
 
   h4 {
@@ -303,21 +309,13 @@ a:hover {
 
   li {
     font-size: 1.1em;
-    margin: 0;
     padding: 8px;
-    padding-left: 0px;
   }
 
   .intro-p {
     margin: 20px;
     font-size: 1em;
     text-align: justify;
-  }
-
-  #about-us,
-  #eyewear,
-  #our-services {
-    margin-top: 100%;
   }
 
   .eyewear-title {
