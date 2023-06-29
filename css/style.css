@@ -173,7 +173,7 @@ footer p {
 
 .contact-title {
   color: white;
-  background-color: #ff8b5b;
+  background-color: #ff8551;
   border-radius: 30px;
   width: 280px;
 }
@@ -276,19 +276,10 @@ a:hover {
 
 @media screen and (max-width: 1280px) {
   nav {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     align-content: center;
     text-align: center;
     margin: 0;
-  }
-
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0 auto;
   }
 
   nav li {
