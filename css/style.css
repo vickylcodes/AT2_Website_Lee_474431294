@@ -256,8 +256,13 @@ footer p {
 
 #submit {
   display: block;
-  margin: 0 auto;
+  margin: 3% auto;
+  padding: 3%;
   width: auto;
+  color: #ffdede;
+  background-color: #4f709c;
+  border: none;
+  border-radius: 20%;
 }
 
 #address,
