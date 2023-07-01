@@ -384,10 +384,4 @@ a:hover {
   h1 {
     background-image: none;
   }
-
-  #kid-pic {
-    display: block;
-    margin: 0 auto;
-    width: 15%;
-  }
 }
