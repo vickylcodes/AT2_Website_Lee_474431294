@@ -145,7 +145,6 @@ address {
 
 .location-heading {
   font-weight: bold;
-  margin: 0;
 }
 
 .day {
@@ -289,6 +288,7 @@ footer p {
 #phone {
   color: #4f709c;
   text-decoration: underline;
+  padding: 2%;
 }
 
 a:visited {
@@ -384,9 +384,10 @@ a:hover {
     height: auto;
   }
 
-  #address {
-    margin: 5px;
+  #phone {
+    margin-bottom: 5%;
   }
+
 }
 
 @media screen and (max-width: 1800px) {
