@@ -52,6 +52,7 @@ nav li a {
   color: #ffdede;
   font-weight: bold;
   padding: 0px;
+  text-decoration: none;
 }
 
 h1 {
@@ -140,6 +141,11 @@ textarea::placeholder {
 
 address {
   font-style: normal;
+}
+
+.location-heading {
+  font-weight: bold;
+  margin: 0;
 }
 
 .day {
