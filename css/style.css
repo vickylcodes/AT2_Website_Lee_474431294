@@ -16,6 +16,7 @@ body {
   width: 100%;
   min-height: 100vh;
   font-family: "Roboto", sans-serif, arial;
+  font-size: 16px;
   background-color: #faf0e4;
 }
 
@@ -54,22 +55,28 @@ nav li a {
 }
 
 h1 {
+  display: block;
+  margin: 15% 10%;
   text-align: center;
   font-size: 5em;
-  margin: 250px 50px;
   padding: 188px 0;
   color: #ff8551;
   background-color: #ffdede;
   border: solid #ffdede 3px;
-  border-radius: 38%;
+  border-radius: 45%;
   border-color: whitesmoke;
   box-shadow: 0 0 10px #ff8b5b;
+  background-image: url(/images/kid-pic.png);
+  background-position: bottom 25% right 8%;
+  background-size: auto 350px;
+  background-repeat: no-repeat;
 }
 
 h2 {
   text-align: center;
+  margin-top: -24%;
+  text-align: center;
   color: white;
-  margin-top: -350px;
 }
 
 h3 {
@@ -179,7 +186,7 @@ footer p {
 }
 
 #about-us {
-  margin: 200px 0px -100px 0px;
+  margin: 500px 0px -100px 0px;
 }
 
 #kid-pic {
@@ -214,6 +221,10 @@ footer p {
   height: 500px;
 }
 
+#contact-us {
+  scroll-margin-top: 55px;
+}
+
 #contact-section {
   background-image: url(/images/kid-store-pic.jpg);
   background-size: cover;
@@ -225,7 +236,7 @@ footer p {
   grid-template-columns: repeat(3, 1fr);
   padding: 15px;
   margin-top: 20px;
-  height: 720px;
+  height: 100vh;
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -306,6 +317,7 @@ a:hover {
   #our-services,
   #contact-us {
     margin-top: 100%;
+    scroll-margin-top: 10px;
   }
 
   h4 {
@@ -365,5 +377,17 @@ a:hover {
 
   #address {
     margin: 5px;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  h1 {
+    background-image: none;
+  }
+
+  #kid-pic {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
   }
 }
