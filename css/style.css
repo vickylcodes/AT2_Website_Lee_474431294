@@ -26,6 +26,8 @@ body {
 
 nav,
 nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -38,7 +40,12 @@ nav {
 }
 
 nav ul {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   margin: 0 auto;
 }
@@ -66,6 +73,7 @@ h1 {
   border: solid #ffdede 3px;
   border-radius: 45%;
   border-color: whitesmoke;
+  -webkit-box-shadow: 0 0 10px #ff8b5b;
   box-shadow: 0 0 10px #ff8b5b;
   background-image: url(/images/kid-pic.png);
   background-position: bottom 25% right 8%;
@@ -112,9 +120,16 @@ ul {
 }
 
 li {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-line-pack: space-evenly;
   align-content: space-evenly;
   font-size: 1.5em;
   padding: 20px 0;
@@ -131,7 +146,28 @@ input {
   width: 80%;
   margin: 0 auto;
   margin-bottom: 28px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+textarea::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif, arial;
+  padding: 2%;
+}
+
+textarea::-moz-placeholder {
+  font-family: "Roboto", sans-serif, arial;
+  padding: 2%;
+}
+
+textarea:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif, arial;
+  padding: 2%;
+}
+
+textarea::-ms-input-placeholder {
+  font-family: "Roboto", sans-serif, arial;
+  padding: 2%;
 }
 
 textarea::placeholder {
@@ -197,12 +233,19 @@ footer p {
   margin: 500px 0px -100px 0px;
 }
 
+#intro-p-last {
+  font-style: italic;
+  font-weight: bold;
+}
+
 #kid-pic {
   display: none;
 }
 
 #eyewear {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
   grid-gap: 40px;
   height: auto;
@@ -245,8 +288,13 @@ footer p {
   padding: 15px;
   margin-top: 20px;
   height: 100vh;
+  -ms-flex-line-pack: center;
   align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -371,6 +419,7 @@ a:hover {
   }
 
   #contact-section {
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     grid-gap: 40px;
     height: auto;
