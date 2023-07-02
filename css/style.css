@@ -63,8 +63,7 @@ nav li a {
 }
 
 h1 {
-  display: block;
-  margin: 15% 10%;
+  margin: 200px 10px;
   text-align: center;
   font-size: 5em;
   padding: 188px 0;
@@ -82,9 +81,12 @@ h1 {
 }
 
 h2 {
+  display: block;
+  font-size: 1.5em;
   text-align: center;
-  margin-top: -24%;
-  text-align: center;
+  margin: 0 auto;
+  margin-top: -380px;
+  width: 100%;
   color: white;
 }
 
