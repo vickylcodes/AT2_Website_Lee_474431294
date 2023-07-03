@@ -324,7 +324,7 @@ footer p {
 }
 
 #submit {
-  display: block;
+  display: inline-block;
   margin: 3% auto;
   padding: 3%;
   width: auto;
@@ -332,6 +332,10 @@ footer p {
   background-color: #4f709c;
   border: none;
   border-radius: 20%;
+}
+
+#submit:hover {
+  cursor: pointer;
 }
 
 #address,
