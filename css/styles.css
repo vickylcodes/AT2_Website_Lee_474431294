@@ -74,7 +74,7 @@ h1 {
   border-color: whitesmoke;
   -webkit-box-shadow: 0 0 10px #ff8b5b;
   box-shadow: 0 0 10px #ff8b5b;
-  background-image: url(/images/kid-pic.png);
+  background-image: url(/img/kid-pic.png);
   background-position: bottom 25% right 8%;
   background-size: auto 350px;
   background-repeat: no-repeat;
@@ -254,15 +254,15 @@ footer p {
 }
 
 #ophthalmic-glasses {
-  background-image: url(/images/ophthalmic-glasses.jpg);
+  background-image: url(/img/ophthalmic-glasses.jpg);
 }
 
 #sunglasses {
-  background-image: url(/images/sunglasses.jpg);
+  background-image: url(/img/sunglasses.jpg);
 }
 
 #contact-lenses {
-  background-image: url(/images/contact-lenses.jpg);
+  background-image: url(/img/contact-lenses.jpg);
 }
 
 #ophthalmic-glasses,
@@ -279,7 +279,7 @@ footer p {
 }
 
 #contact-section {
-  background-image: url(/images/kid-store-pic.jpg);
+  background-image: url(/img/kid-store-pic.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
