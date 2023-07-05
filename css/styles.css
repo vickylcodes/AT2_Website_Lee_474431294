@@ -1,0 +1,451 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+html {
+  width: 100%;
+  overflow-x: hidden;
+  scroll-padding-top: 55px;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif, arial;
+  font-size: 16px;
+  background-color: #faf0e4;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+nav,
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav {
+  background-color: #ff8551;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 85%;
+}
+
+nav ul {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+nav li {
+  padding: 10px;
+}
+
+nav li a {
+  font-size: 0.8em;
+  color: #ffdede;
+  font-weight: bold;
+  padding: 0px;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 200px;
+  text-align: center;
+  font-size: 5em;
+  padding: 188px 0;
+  color: #ff8551;
+  background-color: #ffdede;
+  border: solid #ffdede 3px;
+  border-radius: 45%;
+  border-color: whitesmoke;
+  -webkit-box-shadow: 0 0 10px #ff8b5b;
+  box-shadow: 0 0 10px #ff8b5b;
+  background-image: url(/img/kid-pic.png);
+  background-position: bottom 25% right 8%;
+  background-size: auto 350px;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -380px;
+  width: 100%;
+  color: white;
+}
+
+h3 {
+  margin: 0 auto;
+  margin-top: 10%;
+  font-size: 3em;
+  color: #4f709c;
+  background-color: #ffdede;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+section {
+  height: 100vh;
+  padding-top: 0.5px;
+  color: #4f709c;
+  text-align: center;
+  max-width: 100%;
+}
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  padding: 10px;
+}
+
+li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: space-evenly;
+  align-content: space-evenly;
+  font-size: 1.5em;
+  padding: 20px 0;
+  list-style: none;
+}
+
+label {
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+input {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 28px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+textarea::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif, arial;
+  padding: 2%;
+}
+
+textarea::-moz-placeholder {
+  font-family: "Roboto", sans-serif, arial;
+  padding: 2%;
+}
+
+textarea:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif, arial;
+  padding: 2%;
+}
+
+textarea::-ms-input-placeholder {
+  font-family: "Roboto", sans-serif, arial;
+  padding: 2%;
+}
+
+textarea::placeholder {
+  font-family: "Roboto", sans-serif, arial;
+  padding: 2%;
+}
+
+address {
+  font-style: normal;
+}
+
+.location-heading {
+  font-weight: bold;
+}
+
+.day {
+  font-weight: bold;
+}
+
+.time {
+  margin: 0 0 10% 0;
+}
+
+footer {
+  background-color: #4f709c;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding: 0.2em;
+}
+
+footer p {
+  color: #ffdede;
+  font-size: 0.8em;
+}
+
+.intro-p {
+  font-size: 1.8em;
+  text-align: center;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+
+.eyewear-title {
+  display: block;
+  margin: 0 auto;
+  color: white;
+  background-color: #4f709c;
+  border-radius: 30px;
+  width: 25%;
+  margin-top: 11%;
+  padding: 25px;
+}
+
+.contact-title {
+  color: white;
+  background-color: #ff8551;
+  border-radius: 30px;
+  width: 280px;
+}
+
+#about-us {
+  margin: 500px 0px -100px 0px;
+}
+
+#intro-p-last {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#kid-pic {
+  display: none;
+}
+
+#eyewear {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
+  height: auto;
+}
+
+#ophthalmic-glasses {
+  background-image: url(/img/ophthalmic-glasses.jpg);
+}
+
+#sunglasses {
+  background-image: url(/img/sunglasses.jpg);
+}
+
+#contact-lenses {
+  background-image: url(/img/contact-lenses.jpg);
+}
+
+#ophthalmic-glasses,
+#sunglasses,
+#contact-lenses {
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+#contact-us {
+  scroll-margin-top: 30px;
+}
+
+#contact-section {
+  background-image: url(/img/kid-store-pic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 80px 1fr 80px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 15px;
+  margin-top: 20px;
+  height: 100vh;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#form,
+#location-section,
+#opening-hours {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-items: center;
+  font-size: 1.3em;
+  border: solid #ff8b5b 2px;
+  border-radius: 30px;
+  background-color: #ffdede;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#submit {
+  display: inline-block;
+  margin: 3% auto;
+  padding: 3%;
+  width: auto;
+  color: #ffdede;
+  background-color: #4f709c;
+  border: none;
+  border-radius: 20%;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
+
+#address,
+#phone {
+  color: #4f709c;
+  text-decoration: underline;
+  padding: 2%;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1280px) {
+  h1 {
+    font-size: 4.5em;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -170px;
+    width: 180px;
+  }
+
+  h3 {
+    width: 80%;
+    margin: 3% auto;
+  }
+
+  h3 #about-us,
+  #eyewear,
+  #our-services,
+  #contact-us {
+    margin-top: 100%;
+    scroll-margin-top: 10px;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  li {
+    font-size: 1.1em;
+    padding: 8px;
+  }
+
+  input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  #submit {
+    margin: 5% auto;
+  }
+
+  .intro-p {
+    margin: 20px;
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  .eyewear-title {
+    width: 200px;
+    margin-top: 200px;
+  }
+
+  .contact-title {
+    margin: 20px 30px;
+    width: 90%;
+  }
+
+  #kid-pic {
+    display: block;
+    margin: 0 auto;
+    height: 38vh;
+  }
+
+  #contact-section {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+    height: auto;
+  }
+
+  #form,
+  #location-section,
+  #opening-hours {
+    font-size: 1em;
+    width: 80%;
+    height: auto;
+  }
+
+  #phone {
+    margin-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  h1 {
+    background-image: none;
+  }
+}
