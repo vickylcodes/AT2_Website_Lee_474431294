@@ -58,7 +58,7 @@ nav li a {
   font-size: 0.8em;
   color: #ffdede;
   font-weight: bold;
-  padding: 0px;
+  padding: 0;
   text-decoration: none;
 }
 
@@ -232,7 +232,7 @@ footer p {
 }
 
 #about-us {
-  margin: 500px 0px -100px 0px;
+  margin: 500px 0 -100px 0;
 }
 
 #intro-p-last {
