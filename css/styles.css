@@ -294,7 +294,7 @@ footer p {
   grid-template-columns: repeat(3, 1fr);
   padding: 15px;
   margin-top: 20px;
-  height: 100vh;
+  height: 80vh;
   -ms-flex-line-pack: center;
   align-content: center;
   -webkit-box-pack: center;
