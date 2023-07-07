@@ -178,6 +178,10 @@ address {
   font-style: normal;
 }
 
+.services-list {
+  margin: -19px 0 0 0;
+}
+
 .location-heading {
   font-weight: bold;
 }
@@ -388,7 +392,7 @@ a:hover {
 
   li {
     font-size: 1.1em;
-    padding: 5.5px;
+    padding: 8px;
   }
 
   input {
@@ -406,6 +410,11 @@ a:hover {
   .eyewear-title {
     width: 200px;
     margin-top: 200px;
+  }
+
+  .services-list {
+    font-size: 0.8em;
+    margin: 0;
   }
 
   .contact-title {
