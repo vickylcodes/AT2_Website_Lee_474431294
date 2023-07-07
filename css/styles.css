@@ -8,7 +8,6 @@
 html {
   width: 100%;
   overflow-x: hidden;
-  scroll-padding-top: 55px;
 }
 
 body {
@@ -92,7 +91,6 @@ h2 {
 
 h3 {
   margin: 0 auto;
-  margin-top: 10%;
   font-size: 3em;
   color: #4f709c;
   background-color: #ffdede;
@@ -108,7 +106,6 @@ h4 {
 
 section {
   height: 100vh;
-  padding-top: 0.5px;
   color: #4f709c;
   text-align: center;
   max-width: 100%;
@@ -253,6 +250,13 @@ footer p {
   height: auto;
 }
 
+#about-us,
+#eyewear,
+#our-services,
+#contact-us {
+  scroll-margin-top: 100px;
+}
+
 #ophthalmic-glasses {
   background-image: url(/img/ophthalmic-glasses.jpg);
 }
@@ -263,6 +267,7 @@ footer p {
 
 #contact-lenses {
   background-image: url(/img/contact-lenses.jpg);
+  margin-bottom: 100px;
 }
 
 #ophthalmic-glasses,
@@ -272,10 +277,6 @@ footer p {
   background-size: 100%;
   background-repeat: no-repeat;
   height: 500px;
-}
-
-#contact-us {
-  scroll-margin-top: 30px;
 }
 
 #contact-section {
@@ -343,6 +344,14 @@ footer p {
   color: #4f709c;
   text-decoration: underline;
   padding: 2%;
+}
+
+#fb-icon,
+#insta-icon,
+#linkedin-icon {
+  display: inline-block;
+  font-size: 2em;
+  padding: 8px;
 }
 
 a:visited {
