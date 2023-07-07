@@ -380,15 +380,6 @@ a:hover {
 
   h3 {
     width: 80%;
-    margin: 3% auto;
-  }
-
-  h3 #about-us,
-  #eyewear,
-  #our-services,
-  #contact-us {
-    margin-top: 100%;
-    scroll-margin-top: 10px;
   }
 
   h4 {
@@ -397,17 +388,13 @@ a:hover {
 
   li {
     font-size: 1.1em;
-    padding: 8px;
+    padding: 5.5px;
   }
 
   input {
     display: block;
     margin: 0 auto;
     margin-bottom: 10px;
-  }
-
-  #submit {
-    margin: 5% auto;
   }
 
   .intro-p {
@@ -426,10 +413,21 @@ a:hover {
     width: 90%;
   }
 
+  #about-us,
+  #eyewear,
+  #our-services,
+  #contact-us {
+    scroll-margin-top: 70px;
+  }
+
   #kid-pic {
     display: block;
     margin: 0 auto;
     height: 38vh;
+  }
+
+  #eyewear {
+    margin-top: 100px;
   }
 
   #contact-section {
@@ -437,6 +435,10 @@ a:hover {
     grid-template-columns: 1fr;
     grid-gap: 40px;
     height: auto;
+  }
+
+  #submit {
+    margin: 5% auto;
   }
 
   #form,
